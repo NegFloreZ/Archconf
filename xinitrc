@@ -1,3 +1,6 @@
 #!/bin/bash
+# 
+# ~/.xinitrc
 
-exec openbox-session
+sxhkd -c $HOME/.config/berry/sxhkdrc &
+exec berry
